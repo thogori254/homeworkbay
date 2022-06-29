@@ -1,0 +1,296 @@
+.ftco-intro {
+    padding: 4em 0;
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    color: rgba(255, 255, 255, 0.8); }
+@media (max-width: 991.98px) {
+    .ftco-intro {
+        background-position: center center !important; } }
+.ftco-intro h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700; }
+.ftco-intro .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    background: #14bf98;
+}
+
+.btn.btn-white {
+    background: #e3f2fa;
+    border: 1px solid #e3f2fa;
+    text-decoration: none;
+    color: #000000; }
+.btn.btn-white:hover {
+    border: 1px solid #14bf98;
+    background: transparent;
+    color: #14bf98; }
+.btn.btn-white.btn-outline-white {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff; }
+.btn.btn-white.btn-outline-white:hover {
+    border: 1px solid transparent;
+    background: #fff;
+    color: #000000;
+}
+.btn.btn-primary {
+    background: #14bf98;
+    border: 1px solid #14bf98;
+    text-decoration: none;
+    color: #fff; }
+.btn.btn-primary:hover {
+    border: 1px solid #14bf98;
+    background: transparent;
+    color: #14bf98; }
+.btn.btn-primary.btn-outline-primary {
+    border: 1px solid #14bf98;
+    background: transparent;
+    color: #14bf98; }
+.btn.btn-primary.btn-outline-primary:hover {
+    border: 1px solid transparent;
+    background: #14bf98;
+    color: #fff; }
+.ftco-section {
+    padding: 7em 0 0px;
+    position: relative; }
+@media (max-width: 767.98px) {
+    .ftco-section {
+        padding: 6em 0; } }
+.services-2 {
+    margin-bottom: 10px; }
+.services-2 .icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #14bf98;
+    -webkit-box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15); }
+.services-2 .icon span {
+    font-size: 28px;
+    color: #fff; }
+.services-2 .media-body {
+    width: calc(100% - 70px); }
+.services-2 .media-body h3 {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500; }
+
+.img
+ {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.wrap-about .img-2 {
+    height: 600px; }
+
+#counter{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell{
+    height: 100%;
+    text-align: center;
+    flex: 1
+}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .cell {
+        flex: 100%;
+    }
+}
+.counter #counter .counter-info {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+
+}
+.counter #counter .counter-extras {
+    display: inline-block;
+    color: #14bf98;
+    font: 700 2.875rem/3.25rem "Montserrat", sans-serif;
+}
+#trustcontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.trustdivs{
+    height: 100%;
+    text-align: center;
+    flex: 1
+}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .trustdivs {
+        flex: 100%;
+    }
+}
+.dosha-label-style{
+    color: #14bf98;
+    font: 500 0.8125rem/1.125rem "Montserrat", sans-serif;
+    padding-bottom: 1em;
+}
+.radio{
+
+
+    /*background-color:lightblue;*/
+    border: 0.1px solid grey;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    /*margin: 2px 0;*/
+}
+
+.radio.selected{
+    /*border-color: #14bf98;*/
+    background-color: #14bf98;
+    color: white;
+}
+.btn-solid-sm {
+    display: inline-block;
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    border: 0.125rem solid #14bf98;
+    border-radius: 0.25rem;
+    background-color: #14bf98;
+    color: #fff;
+    font: 700 0.75rem/0 "Montserrat", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-solid-sm:hover {
+    background-color: transparent;
+    color: #14bf98;
+    text-decoration: none;
+}
+#order-login-form{
+    display: none;
+}
+#order-register-form{
+    display: none;
+}
+/* Style the tab */
+.dosha-tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
+}
+
+/* Style the buttons inside the tab */
+.dosha-tab button {
+    background-color: #FFFFFF;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.dosha-tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.dosha-tab button.active {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-bottom-style: none;
+
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 26px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-bottom: 30px;
+}
+
+.clickable{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0px;
+     left: 0px;
+     border: 1px solid #14bf98;
+     border-radius: 4px;
+     transition: all ease .5s;
+     z-index: 10;
+ }
+.checked-box{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 22px;
+    height: 22px;
+    background-color: #0055ff;
+    color: #fff;
+    text-align: center;
+    border-top-right-radius: 4px;
+    display: none;
+}
+
+input[name="writer-type-radio"]:checked + .clickable{
+    border-color: #0055ff;
+    box-shadow: 0px 0px 6px 2px #0055ff;
+}
+
+input[name="writer-type-radio"]:checked + .clickable .checked-box{
+    display: block;
+}
+.pdisplay-container{
+position: fixed;
+    margin-top: 10%;
+
+}
+.pricecalculate{
+    background-color: #f0fcff;
+    border: 1px solid rgba(0,0,100,.09);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,100,.1),0 0 5px rgba(0,0,200,.08);
+    box-shadow: 0 5px 15px rgba(0,0,100,.1),0 0 5px rgba(0,0,200,.08);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #405d6c;
+    padding: 20px;
+    font: 500 0.8125rem/1.125rem "Montserrat", sans-serif;
+}
+@media (max-width: 767.98px) {
+    .sticky-top {
+        position: relative;
+    }
+}
+@media(min-width: 768px){
+    .sticky-top{
+        position: fixed !important;
+        margin-top: 10%;
+        width: 300px;
+    }
+}
+
+.box-footer{
+    margin-bottom: 5%;
+    text-align: center;
+}
+#paypal-button-container{
+    display: none;
+
+}
